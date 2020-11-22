@@ -1,0 +1,80 @@
+<div class="container-3">
+        <img class="destination" src="Destination.png" alt="Destination">
+        <div class="line"></div>
+        <img class="warehouse" src="warehouse.png" alt="warehouse">
+        <div class="dot">
+            <div class="lines"></div>
+        </div>
+        <div class="dot-2">
+            <div class="lines"></div>
+        </div>
+        <div class="dot-3">
+            <div class="lines"></div>
+        </div>
+        <div class="dot-4">
+            <div class="lines"></div>
+        </div>
+        <div class="dot-5">
+            <div class="lines"></div>
+        </div>
+        <div class="info-box">
+            <p class="green-text">
+                Delivered
+            </p>
+            <p class="green-text-2">
+                04-07-2019
+            </p>
+            
+            <p class="green-text-3">
+               14:00
+            </p>
+        </div>
+        <div class="info-box-2">
+            <p class="black-text">
+                Out for delivery
+            </p>
+            <p class="black-text-2">
+                04-07-2019
+            </p>
+            
+            <p class="black-text-3">
+               14:00
+            </p>
+        </div>
+        <div class="info-box-3">
+            <p class="black-text">
+                Arrived at Mysore
+            </p>
+            <p class="black-text-2">
+                04-07-2019
+            </p>
+            
+            <p class="black-text-3">
+               14:00
+            </p>
+        </div>
+        <div class="info-box-4">
+            <p class="black-text">
+                Arrived at jaipur
+            </p>
+            <p class="black-text-2">
+                04-07-2019
+            </p>
+            
+            <p class="black-text-3">
+               14:00
+            </p>
+        </div>
+        <div class="info-box-5">
+            <p class="black-text">
+                Transit to next hub
+            </p>
+            <p class="black-text-2">
+                04-07-2019
+            </p>
+            
+            <p class="black-text-3">
+               14:00
+            </p>
+        </div>
+    </div>

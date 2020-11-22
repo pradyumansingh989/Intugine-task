@@ -1,0 +1,83 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+.box{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin:20px auto;
+    
+}
+.inside{
+    padding: 9px;
+    width: 61px;
+    margin: 20px 20px;
+    border: 2px solid black;
+}
+.inside span{
+    display: block;
+}
+
+.table-container {
+    width: 800px;
+    font-size: smaller;
+    /* top: 50px; */
+    /* left: 1000px; */
+    /* margin-top: 200px; */
+    margin-left: 540px;
+}
+table {
+    flex-flow: column;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+table thead {
+    /* head takes the height it requires, 
+    and it's not scaled when table is resized */
+    flex: 0 0 auto;
+   width: calc(100% - 0.9em); 
+   text-align: center;
+}
+table tbody {
+    /* body takes all the remaining available space */
+    flex: 1 1 auto;
+    display: block;
+    overflow-y: scroll;
+}
+table tbody tr {
+    width: 100%;
+}
+table thead, table tbody tr {
+    display: table;
+    /* table-layout: fixed; */
+}
+td{
+    text-align: center;
+    width: 151px;
+    padding: 2px;
+    margin: 2px;
+}
+th{
+    text-align: center;
+    font-size: 10px;
+    width: 61px;
+    padding: 4px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(44,130,201,1); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 12px rgb(19, 3, 245); 
+}
